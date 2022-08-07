@@ -1,0 +1,33 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 30px;
+    background: #398;
+    height: 200px;
+    margin: 40px 0;
+    background-image: url(https://fondosmil.com/fondo/11760.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
+cover- es para que la imagen se ajuste sin deformarse
+background-clip: padding box
+border box
+margin
+content box. es para seleccionar desde donde quiero mostrar la imagen
+
+background-origin: border box
+paddinf box
+margin
+content-box, es parecido a clip, pero la diferencia es que clip la recorta y origin la crea a partir de ese borde
+
+background position, mescla propiedades, uno es horizontal y el otro vertical
+ 
+b. attachment:srool toma como referencia el viewport
+
+*/

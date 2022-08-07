@@ -1,0 +1,36 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.div-responsive {
+    background: #c95;
+}
+
+@media screen and (min-width:400px) and (max-width: 650px) { /*ejemplo de movil*/
+    .div-responsive {
+        background: red;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width: 800px) { /*ejemplo de tablet*/
+    .div-responsive {
+        background: green;
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px) { /*ejemplo de tablet mas grande*/
+    .div-responsive {
+        background: orange;
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) { /*ejemplo de pc*/
+    .div-responsive {
+        background: #000;
+        color: #fff;
+    }
+}

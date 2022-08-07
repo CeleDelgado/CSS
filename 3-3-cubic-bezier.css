@@ -1,0 +1,45 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(00, 0.76, 1.11);
+}
+
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        background: #000;
+    }
+    70% {
+        background: red;
+    }
+    100% {
+        left: 80%;
+        background: yellow;
+    }
+}
+/*
+Las animaciones funcionan con la regla keyframes
+animation-timing-funtion: velocidad
+animaion-iteration-count: define veces de repeticion
+animation-direction: cambia la direccion
+animation-fill-mode: como va a qedarse, modo final
+
+
+*/

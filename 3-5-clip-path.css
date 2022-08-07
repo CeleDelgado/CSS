@@ -1,0 +1,31 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
+    /*los 3 siguientes items son para sombras*/
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    -webkit-box-shadow: inserción -99px 42px 27px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inserción -99px 42px 27px -1px rgba(0,0,0,0.75);
+    box-shadow: inserción -99px 42px 27px -1px rgba(0,0,0,0.75);
+}
+
+.caja:hover {
+    transform: skew(360deg) 
+}
+b{
+    margin: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}

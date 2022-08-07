@@ -1,0 +1,34 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+:root {
+    --color-rojo-claro: #f44;
+    --color-azul-claro: #66f;
+}
+
+div {
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+p {
+    --color-azul-claro: #000;
+    height: 100px;
+    width: 100px;
+    background: var(--color-azul-claro);
+}
+.container {
+    background: var(--color-rojo-claro);
+}
+.container2 {
+    background: var(--color-azul-claro);
+}
+
+/*
+variables globales: son las que pueden utilizarse desde cualquier elemento valor que guarda una propiedad con un nombre
+
+si queremos que la pagina tenga un estilo por defecto, que el background tenga un color y que ese color se use para botones, lo hacemos  con variables, de esta manera guardamos los colores
+*/

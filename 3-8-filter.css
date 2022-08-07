@@ -1,0 +1,26 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+img {
+    filter: sepia(10);
+    width: 80%;
+}
+
+/*
+filtros:
+
+none-defecto
+blur- desenfoca
+brightness- brillo
+contrast-contraste
+drop-shadow: 3 medidas y un color, sombra a imagen transparente
+grayscale- gris
+hue-rotate: en grados, invierte la gama de colores
+invert: invierte los colores-100 inveritido, 50 gris, 20 parecido al original, 80 invertido
+opacity: opacidad
+saturate: satura al elemento, distinto al contraste, 
+sepia: es como un valor apagado
+
+*/

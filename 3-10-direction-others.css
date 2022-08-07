@@ -1,0 +1,44 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth 
+}
+
+.container {
+    padding: 20px;
+    background: #59f;
+    font-size: 20px;
+    text-align: right;
+    direction: ltr;
+}
+#content {
+    background: red;
+}
+
+/*
+direction:
+left to right-
+right to left-
+initial
+inherit
+
+otros: 
+letter spacing- separa las letras la cantidad que nosotros le digamos
+scroll-behavlor: alivianda o no, el efecto scroll
+user-selected: como hago para  decirle al navegador  que cierto texto no puedo seleccionarlo?
+1- le damos el mismo estilo de color de fondo y no se ve que esta "seleccionando" pero en realidad si
+2- user-select: none- no le permitimos al usuario seleccionar nada, no puede copiar o pegar ni buscar en google
+text-shadow
+----attr()----: no se usa
+scroll-behavior: smooth 
+
+
+Info adicional
+para  navegadores como mozilla:
+-moz-color
+para chrome: 
+-webkit-color:
+para todos los navegadores
+color
+
+*/
