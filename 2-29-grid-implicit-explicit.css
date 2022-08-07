@@ -1,0 +1,13 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+
+/*
+grid implicito y explicito:
+a veces no se define como para que tenga 4 filas, lo definimos para que tenga 3, pero la 4ta fila se crea igual, con cualidades de grid implicito
+
+las celdas pequeñas que queden debajo de la grilla, con un tamaño mucho menor no forman parte de lo que querriamos hacer inicialmente, y si hay celdas vacias, estas tendran cualidades de grid implicito
+
+*/

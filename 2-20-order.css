@@ -1,0 +1,43 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    flex: 1;
+}
+
+.orange {
+    background: orange;
+    flex: 1 0 350px;
+    order: 4;
+}
+
+.green {
+    background: green;
+}
+
+/*
+ORDER: se usa mucho para el responsive
+es como un z indedx pero en el eje que apunta el main axis
+eje z: el que tenga el valor mas grande va a estar por encima
+orden: en el main axis: EL QUE TENGA EL VALOR MAS GRANDE VA A ESTAR AL FINAL!
+si el main axis apunta a la izq, el order estara en la misma direccion
+por defecto el main axis va de izq a derecha-
+si le cambiamos de direccion...
+...flex-direction: row-reverse;
+puede ser tambien: column-reverse o column
+
+*/

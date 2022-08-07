@@ -1,0 +1,57 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+/* 
+FIRST LINE
+FIRST LETTER
+PLACEHOLDER
+SELECTION
+AFTER
+BEFORE
+*/
+.text {
+    padding: 20px;
+}
+
+.text::first-line {
+    color: blue;
+}
+.text::first-letter {
+    color: red;
+}
+input {
+    padding: 6px;
+    width: 100%;
+}
+input::placeholder {
+    color: red;
+    font-size: 1.5em;
+}
+input::selection {
+    color: red;
+    background-color: yellow;
+}
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: #666;
+    padding: 100px;
+    width: 50%;
+}
+
+b {
+    padding: 6px;
+    width: 100%;
+}
+
+b::before {
+    content: "me instruyo";
+    color: #fff;
+}
+b::after {
+    content: "aprender a diseñar páginas webs";
+    color: red;
+    background-color: grey;
+}

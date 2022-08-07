@@ -1,0 +1,26 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*
+OBJET FIT, podemos usarlo para una galeria de imagenes
+
+CONTAIN, contiene la imagen original
+COVER: rellena el contenedor con la imagen, SE AJUSTA AL CONTENEDOR 
+NONE: se queda con la imagen original
+SCALE-DOWN se queda con la mejor propiedad
+
+*/
+.caja {
+    margin: 25px;
+    width: 300px;
+    height: 500px;
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: scale-down;
+}

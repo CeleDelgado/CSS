@@ -1,0 +1,42 @@
+/*POSITION:
+STATIC:     no esta posicionado, no adquiere propiedades
+RELATIVE:   adquiere propiedades: top, left, botton, right, z index
+ABSOLUTE
+FIXED
+STICK*/
+*{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellow;
+}
+
+.caja1{
+    background-color: red;
+}
+.caja2{
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    bottom: -60px;
+    right: 100px;
+    z-index: 100;
+
+}
+.caja3{
+    background-color: blue;
+}
+.caja4{
+    background-color: yellow;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    z-index: 100;
+}

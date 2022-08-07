@@ -1,0 +1,26 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    padding: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px 150px 150px; /*1era, 2da y 3er columna, cuando le damos 1fr, lo que sobre va a esa columna/fila*/
+    grid-template-columns: 150px 150px 1fr; /*en este caso la 3er columna le damnos lo que sobre */
+    border: 3px solid #000;
+}
+.grid-item {
+    border: 2px solid #000;
+}
+
+
+
+/*
+GRID template  (row-columns), solo va hacia los costados y no hacia abajo
+este ejemplo es semidinamico
+
+*/

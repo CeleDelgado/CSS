@@ -1,0 +1,22 @@
+/*en cascada*/
+h1{
+    color: red;
+}
+h1{
+    color:blue;
+}
+
+/*aca predomina la jerarquia: osea la clase*/
+.clase-red{
+    color: gray;
+}
+h1{
+    color:pink;
+}
+
+/*Cuando tenemos dos elementos o mas de la misma jerarquia predomina el motodo por cascada, entonces quedara el ultimo elemento visible, ya que todos se emplean y queda finalmente el ultimo visible.
+
+Luego podemos decir que ID le gana en cuanto a jerarquia a clase y elemento
+
+Estilo de linea tiene mayor jerarquia que este ultimo y el de mayor jerarquia es 
+!important, pero no se recomienda ya que podria confundirnoss*/

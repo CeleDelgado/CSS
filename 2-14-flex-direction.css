@@ -1,0 +1,27 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+}
+
+.orange {
+    background: orange;
+}
+
+/*si quisiera que las cajas este en forma vertical deberiamos usar flex direction:  cambiamos la direccion desde el main axis
+ROW-REVERSE: cambia la direccion de los ojes(debe ir a la derecha pero iria a la izquierda
+COLUMN-REVERSE: lo mismo qu ROW pero en columna, debe ir abajo , pero va hacia arriba
+
+*/

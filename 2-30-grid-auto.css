@@ -1,0 +1,50 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    padding: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px) 1fr; /* SE REPITEN 5 Y UNA ES FR*/
+    grid-template-rows: repeat(3, 150px); /*SE REPITEN 3 FILAS*/
+    grid-auto-rows:  150px; /*GRID AUTO,- LA FILA QUE VAMOS A CREAR, LA CUAL NO ESTA "DECLARADA/IMPLICITA, VA A SER DE 150PX, ES LA ULTIMA FILA"*/
+    /*1)grid-auto-columns:150px;*/
+    border: 3px solid #000;
+    background-color: #333; 
+    /*1)grid-auto-flow: column;
+    2) grid-auto-flow: dense;
+    
+    -ADEMAS: grid-auto-column y grid-auto-row, pasaran a medir: 1fr*/
+}
+.grid-item {
+    border: 1px solid #000;
+    background-color: #999;
+}
+/*
+2)
+.grid-item:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+*/
+
+
+/*
+GRID AUTO ROWS: definimos cuanto va a medir la fila que vamos a crear
+
+GRID AUTO COLUMNS
+
+
+funcionan igual que el template
+funcionan iguales
+es para programar el grid implicito
+el REPEAT en grid auto no sirve porque no es para crear columnas sino para trabajar con las celdas por separado
+
+
+-SI QUEREMOS QUE SE COMPORTE COMO COLUMNA: 1)
+-SI QUEREMOS QUE NO SOBREN LUGARES EN LA GRILLA, PODEMOS RELLENAR CAMPOS QUE QUEDEN VACIOS:2)
+*/

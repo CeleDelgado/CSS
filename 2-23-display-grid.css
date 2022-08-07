@@ -1,0 +1,28 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+}
+.grid-container {
+    display: grid;
+    /*no hay cambios con display grir porque con grid hacemoms grillas, donde hacemos columnas y filas*/
+}
+.grid-item {
+    border: 2px solid #000;
+}
+
+
+
+/*
+GRID: grillas
+grid container: todo el contenido
+grid item: cada elemento que forme parte del container
+grid cell: celdaas de una grillas- con sus columnas y grillas, son cuadrilateros con lados paralelos
+grid tracks (column y row) es la suma ded nro de columnas y de row
+grid area: areas que seleccionamos, son consecutivas
+grid line: column line y row line- numeracion del grid lines
+
+*/

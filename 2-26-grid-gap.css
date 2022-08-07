@@ -1,0 +1,34 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    padding: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 1fr 1fr; /*en este caso la 3er columna le damnos lo que sobre */
+    grid-template-rows: 150px 150px 150px; /*1era, 2da y 3er columna, cuando le damos 1fr, lo que sobre va a esa columna/fila*/
+    border: 3px solid #000;
+    /*grid-gap: 10px;*/
+    /*grid-column-gap: 10px;*/
+    /*grid-row-gap: 10px;*/
+    background-color: #333; /*todo el contenedor sera de este color*/
+    grid-gap: 10px;
+}
+.grid-item {
+    border: 2px solid #000;
+    background-color: #999;/*cadaa item sera de este color*/
+}
+
+
+
+/*
+GRID gap
+es como un margin pero entre celdas 
+distancia de una celda y otra
+la distancia no es con los bordes del contenedor, sino se separan entre ellas
+
+*/

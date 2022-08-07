@@ -1,0 +1,49 @@
+/*UNIVERSAL*/
+/**{
+    color:red;
+}*/
+
+/*DE TIPO: H2, BUTTON, INPUT, P, ETC*/
+h1{
+    color: pink;
+}
+
+
+/*CLASES*/
+
+.titulo-h2{
+    color:green;
+}
+
+/*ID*/
+#element-for-modify{
+    color: blueviolet;
+}
+
+/*ATRIBUTO*/
+[atributo1="colocado"]{
+    color:fuchsia;
+}
+
+/*DESCENDIENTE*/
+h2 p{
+    color: blue;
+}
+
+.h2-class p{
+    color:orange;
+}
+.h2-class b{
+    color: grey;
+}
+.h2-class span{
+    color: moccasin;
+}
+
+/*PSEUDO-CLASES: cuando el cursor pase por encima de ellos se pondra de esos colores que detalla a continuacion*/
+b:hover{
+    color: brown;
+}
+.h2-class b:hover{
+    color: yellow;
+}

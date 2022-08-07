@@ -1,0 +1,99 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #444;
+    margin: 50px 50px;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.form_input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    /*detalles:*/
+    border-bottom: 3px solid #1c7;
+    background: transparent;
+}
+
+.form_input:focus {
+    background: #333;
+    outline: none;
+    border-bottom: 3px solid #5f9;
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.form_img {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px; /*para que no se encoja*/
+    max-width: 400px;
+    order: 2;
+}
+
+.form_img div {
+    padding: 10px;
+}
+
+.img_container {
+    margin: auto;
+}
+
+.img_container div {
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.form_img img{
+    width: 90%;
+    margin: auto;
+}
+
+/*seleccion por atributo*/
+
+.form_input [type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form_input [type="submit"]:hover {
+    background-color: #072;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form_input [type="submit"]:focus {
+    background: #094;
+}
+
+.form_input [type="submit"]:active {
+    background: linear-gradient(to bottom, #072,#050);
+}
+
+
+
+/*
+para que la imagen no se encoja usaremos un min-width
+
+*/

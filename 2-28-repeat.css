@@ -1,0 +1,33 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    padding: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px) 1 fr; /* es lo mismo que decir: 150px 150px 150px 1fr;son 4 columnas*/
+    grid-template-rows: 150px 150px 150px; 
+    border: 3px solid #000;
+    background-color: #333; 
+}
+.grid-item {
+    border: 1px solid #000;
+    background-color: #999;
+}
+
+.grid-item:first-child {
+    background: #900;
+    grid-column: 3/ span 2; 
+    grid-row: 1/ span 2;  
+}
+
+
+/*
+repeat:
+repite el valor de la unidad por la cantidad de veces dada
+
+*/

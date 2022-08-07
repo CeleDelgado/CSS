@@ -1,0 +1,17 @@
+*{
+    font-family:  'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2{
+    background-color: #a22;
+    display: inline-block;
+    padding: 20px 60px;
+    height: 100px;
+    width: 100px;
+}/*De esta forma no queda del todo prolija*/
+h3{
+    background-color: aqua;
+    display: inline-block;
+    padding: 100px;
+}

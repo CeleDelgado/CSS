@@ -1,0 +1,40 @@
+*{
+    font-family:  'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2{
+    background-color: cornflowerblue;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box; /*lo colocamos en el borde de la caja*/
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    border: 5px solid #a22;/* BOX SHADOW*/
+    box-shadow: 2px 4px 15px 0 #000;
+}
+h3{
+    background-color: pink;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box; 
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    /* BOX SHADOW*/
+    box-shadow: 30px 10px 10px 10px #000;
+}
+
+p{
+    background-color: greenyellow;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box; 
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    /* BOX SHADOW*/
+    box-shadow: 30px 20px 10px 10px #000;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff;
+}/*Los estilos: que es la segunda caraceristica que se le da a border, pueden ser: solid, dashed, double, inset, groove, outset, ridget, etc*/

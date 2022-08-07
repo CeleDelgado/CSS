@@ -1,0 +1,21 @@
+*{
+    font-family:  'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2{
+    background-color: #a22;
+    display: inline-block;
+    padding: 10px 50px;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box; /*lo colocamos en el borde de la caja*/
+    text-align: center;
+}
+h3{
+    background-color: blue;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: content-box;
+    text-align: center;
+}

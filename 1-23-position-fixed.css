@@ -1,0 +1,18 @@
+/*POSITION:
+STATIC:     no esta posicionado, no adquiere propiedades
+RELATIVE:   adquiere propiedades: top, left, botton, right, z index
+ABSOLUTE
+FIXED
+STICK*/
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.caja-fixed {
+    background: red;
+    position: fixed;
+    opacity: 0.4;
+}
+/*debajo de la opacidad podemos ver el texto*/

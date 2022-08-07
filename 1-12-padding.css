@@ -1,0 +1,29 @@
+*{
+    font-family:  'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h2{
+    background-color: #a22;
+    display: inline-block;
+    padding: 20px 60px;
+}
+/* colocamos padding para sintetizar y no colocar:
+padding-bottom
+padding-top
+padding-left
+padding-right
+
+a continuacion mostramos otras formas*/
+
+h3{
+    background-color: green;
+    display: inline-block;
+    padding: 10px 20px 30px 40px;
+}
+p{
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px 20px 30px;
+}

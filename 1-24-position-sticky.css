@@ -1,0 +1,20 @@
+/*POSITION:
+STATIC:     no esta posicionado, no adquiere propiedades
+RELATIVE:   adquiere propiedades: top, left, botton, right, z index
+ABSOLUTE
+FIXED
+STICK*/
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.caja-fixed {
+    background: red;
+    position: sticky;
+    opacity: 0.3;
+    top: 0;
+    margin-top: 100px;
+}
+/*debajo de la opacidad podemos ver el texto, hacemos scrol, pero al inicio de la pagina podemos ver la caja fixed con cierto espacio de margen que permite que no se sobrepongan los textos */

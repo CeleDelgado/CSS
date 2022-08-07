@@ -1,0 +1,53 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;/*con esta propiedad cuando llego al minimo de width que en este caso es 250px, la caja siguiente va abajo de las demas*/
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+    flex-grow: 1;
+    width: 300px;/*a medida que agrando la pantalla, todas las cajas llegan a 300px al mismo tiempo*/
+}
+
+.orange {
+    background: orange;
+    flex-shrink: 2;
+    /*con un valor 1 de flex shrink, cede 1 de ese flex, con un 2 como valor, cede el doble que las otras cajas.
+    el espacio que se cede se divide
+    se empieza a repartir el espacio sobrante cuando todas las cajas alcancen el espacio asignado
+    #si el contenedor mide 500px, cada caja 300px (osea 900px), como tenemos 500 del contenedor nos faltan 400px, entonces esos 400 que faltan se los saca a las cajas, y eso que le sacan es lo que "ceden" las cajas con el flex shrink! (:D)
+    
+    USAMOS UN SHORJAM CUANDO:
+
+    #flex: 1 0 350px;
+
+    esto seria: flex: grow, shrink, basis;
+
+    */
+}
+
+.green {
+    background: green;
+}
+
+/*
+el flex shrink: decide que espacio va a ocupar cada uno, con esta propiedad decimos ¿cuanto espacio va a ceder cada uno?
+HAY QUE CEDER SINO EL ESPAICO NO VA A ALCANZAR
+
+GROW: espacio asignado- main axis
+SHRINK: espacio que cede- main axis
+BASIS: medicion antes de encogerse
+
+
+*/

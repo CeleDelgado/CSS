@@ -1,0 +1,22 @@
+/**{
+    font-family:  'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h2{
+    display: inline;
+    height: 400px;
+    width: 100px;
+}
+para el h2 el height y width no afecta ya que no los toma ni modifica
+
+p{
+    height: 400px;
+    width: 100px;
+}*/
+
+h2{
+    background-color: #a22;
+    display: inline-block;
+}

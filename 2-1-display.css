@@ -1,0 +1,19 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid red;
+    background: yellow;
+    /*por defecto el display es block, coloca las cajas una debajo de la otra*/
+    /* display: inline-block;   con inline no puedo cambiar resoluciones   */
+    height: 100px;
+    width: 100px;
+    display: block;
+
+}

@@ -1,0 +1,32 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;/*con esta propiedad cuando llego al minimo de width que en este caso es 250px, la caja siguiente va abajo de las demas*/
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.orange {
+    background: orange;
+    flex-basis: 300px;
+    width: 200px;
+    /*el flex basis mide 300px como dice basis y no 200 como dice width, basicamente*/
+}
+
+.green {
+    background: green;
+}
+

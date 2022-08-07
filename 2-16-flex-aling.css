@@ -1,0 +1,60 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; /**/
+    height: 100vh;
+    /*para una linea de items, para mas de una usamos content*/
+    /*align-items: flex-start;*/
+    align-content: flex-start;
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+    margin: auto; /*con margin centramos solo el contenedor verde en el centro de su ubicaciòn*/
+}
+
+/*JUSTIFY CONTENT: 
+para centrar el contenido, es lo mismo que margin auto
+CENTER
+SPACE-ARROUND ( funciona como un margin auto, dentro del flex, como el height del flex-container es igual de alto que los flex-items no se nota la diferencia) nos deja un margen por caja
+SPACE-BETWEEN: da un margen automatico a todas las cajas, se separan las cajas a una misma distancia
+SPACE-EVENLY: cada caja tiene el mismo margen
+
+alineacion en cross axis:
+·ALING ITEMS se usa para cuando hay una linea de items (son los  flex-items)
+stretch. propiedad por defecto
+flex-start: lo coloca al comienzo
+center
+baseline: desde abajo hacia arriba(suben 1-2-3-4 y asi sucesivamente)
+flex-end: lo coloca a final
+
+·ALING CONTENTS: se usa para cuando hay mas de una linea
+·ITEMS: son cajas flexibles, estan dentro de los contenedores que tienen display flex
+ALING-SELF:  vamos a agarrar una caja y tirarla abajo
+-center
+-flex start
+-flex end
+-baseline
+
+·funcionamiento del margin
+·MARGIN(es un shortham, de top, butttom, left, right)
+
+*/

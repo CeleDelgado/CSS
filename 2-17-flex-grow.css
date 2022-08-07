@@ -1,0 +1,37 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;/*con esta propiedad cuando llego al minimo de width que en este caso es 250px, la caja siguiente va abajo de las demas*/
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    min-width: 250px;
+    text-align: center;
+    height: 100px;
+    /*lo divide por partes, reparte un pedacito del espacio sobrante a cada uno*/
+    /*flex-grow: 1;*/
+}
+
+.orange {
+    background: orange;
+    /*si queremos que el flex grow sea individual y tome esta propiedad un elemento en especifico se la damos particularmente a cada quien*/
+    flex-grow: 1;
+}
+
+.green {
+    background: green;
+    /*con margin centramos solo el contenedor verde en el centro de su ubicaciòn*/
+    /*1) flex-grow:1;*/
+}
+
+/*
+1)si quisieramos darle el espacio sobrante a dos cajas solas, hacemos lo mismo que con el elemento naranja, pero le damos esta caracteristica a los elementos que deseemos 
+*/

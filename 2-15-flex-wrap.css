@@ -1,0 +1,35 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
+
+/*si quisiera que las cajas este en forma vertical deberiamos usar flex direction:  cambiamos la direccion desde el main axis
+ROW-REVERSE: cambia la direccion de los ojes(debe ir a la derecha pero iria a la izquierda
+COLUMN-REVERSE: lo mismo qu ROW pero en columna, debe ir abajo , pero va hacia arriba
+WRAP: para que no se encoja y que la ultima caja vaya hacia bajo
+si quiero abreviar direction y wrap: NOWRAP
+WRAP-REVERSE: van para arriba las cajas, al encojerse
+
+*/

@@ -1,0 +1,30 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*
+OBJET position
+
+LEFT
+RIGHT
+TOP
+BUTTON
+PX
+EM
+%
+
+*/
+.caja {
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;
+    object-position: left;
+}
